@@ -1,0 +1,168 @@
+body,html{
+	margin: 0;
+	padding: 0;
+	height: 100%;					/*для футера*/
+}
+
+.wraper{
+
+	min-height: 100%;				/*для футера*/
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+.contentcont{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 120px auto 0;
+	padding: 30px  50px;
+	border: 1px solid #eaeced;
+	border-radius: 	12px;	
+
+
+   }
+
+
+.footerStayPut{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 11px;
+	margin-top: auto; 			/*для футера снизу*/
+    
+}
+
+.footerGroup, a{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: center;
+	list-style-type: none;
+   	text-decoration: none;
+   	color: #666; 
+           									/*для текста*/
+
+}
+
+a:hover {
+  text-decoration: underline; /*для подсветки*/
+}
+
+
+.textInput{
+		
+    border-radius: 4px;
+    margin-bottom: 16px;
+
+}
+
+
+
+.textInput:hover{
+	border-color: blue;
+
+}
+
+
+
+#email{
+	height: 60px;  /*размер инпута для ввода*/
+	width: 350px;
+}
+
+
+.logoim{
+	margin: 0px 0px 45px 0px;
+}
+
+.recoveryOption{
+	margin-right: 245px;
+	color: #1072eb;
+	text-align: right;
+	font-size: 17px;
+	margin-bottom: 20px;
+	font-weight: bold;
+
+}
+
+
+#btnNext{							/*Кнопки*/
+	border-radius: 13% / 90%;
+	height: 50px;
+	width: 360px;
+	margin-top: 10px;
+	background-color: #142c8e;
+	border-style: none;
+	color: white;
+	font-size: 15px;
+}
+#btnNext:hover{
+	border: 0.0612rem solid #142c8e;
+	background-color: #4945AF;
+	cursor:pointer;
+}
+
+#createAccount{
+	border-radius: 13% / 90%;
+	height: 50px;
+	width: 360px;
+	background-color: white;
+	border-top: px solid transparent;
+	 border-style: solid;
+ 	 border:1px solid #142c8e;
+ 	 color: #142c8e;
+ 	 font-size: 15px
+}
+
+#createAccount:hover{
+	border: 0.15rem solid #142c8e;
+	background-color: white;
+	cursor:pointer;
+
+
+}
+
+.loginseparator{
+	border-top: 1px solid #cbd2d6;
+    position: relative;
+    margin-top: 8.72%;
+    margin-bottom: 4.895%;
+    height: 15px;
+    text-align: center;
+    font-size: 83.34%;
+    width: 350px;
+}
+
+.textInSeparator{
+	background-color: #fff;
+    padding: 0 0.5em;
+    position: relative;
+    color: #6c7378;
+    top: -0.7em;
+    }
+
+
+.localeLink{			/*выбор региона и языка*/
+	display: flex;
+	gap: 10px;
+	list-style-type: none;
+	font-size: 14px;
+ }
+.localselector li a{
+	color: #666;
+}
+ 	
+.spanli{
+ 	    border-right:1px solid #cbd2d6;
+ }
+
+
+.localselector{
+	margin: 50px 60px 0px 10px;
+
+}
